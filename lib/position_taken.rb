@@ -3,7 +3,7 @@ def position_taken?(board, index)
   cell = board[index-1]
    if (cell != " " && cell != nil)
      x = true
-   else 
+   else
      if (cell == "Y" || cell == "N")
         x = false
       end # of else if
