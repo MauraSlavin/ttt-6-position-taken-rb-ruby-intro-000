@@ -1,8 +1,9 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
-   if (board[index-1] != " " && board[index-1] != nil)
+  cell = board[index-1]
+   if (cell != " " && cell != nil)
      x = true
-   else
+   else if (cell == "Y" || cell == "N")
      x = false
    end # if
 end  # of def
