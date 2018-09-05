@@ -9,4 +9,4 @@ end  # of def
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 2
-position_taken[board index]
+position_taken?(board,index)
