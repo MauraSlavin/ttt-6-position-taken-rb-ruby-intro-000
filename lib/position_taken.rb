@@ -9,6 +9,5 @@ def position_taken?(board, index)
   x
 end  # of def
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = 2
+
 position_taken?(board,index)
