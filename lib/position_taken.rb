@@ -6,6 +6,7 @@ def position_taken?(board, index)
    else
      x = true
   end # if
+  x
 end  # of def
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
