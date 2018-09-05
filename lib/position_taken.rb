@@ -8,6 +8,3 @@ def position_taken?(board, index)
   end # if
   x
 end  # of def
-
-
-position_taken?(board,index)
